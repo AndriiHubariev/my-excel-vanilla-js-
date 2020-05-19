@@ -1,0 +1,19 @@
+@import "variabels";
+@import "mixins";
+
+.exsel__toolbar {
+    position: absolute;
+    height: $toolbar-hight;
+    left: 0;
+    right: 0;
+    top: $header-hight;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .button {
+        @include button(green);
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>My-Excel</title>
+  </head>
+  <body>
+    <div class="container" id="app">
+      <div class="exsel">
+        <div class="exsel__header">
+          <input type="text" class="input" value="New table +" />
+          <div class="buttons">
+            <div class="button"><i class="fas fa-trash"></i></div>
+            <div class="button"><i class="fas fa-sign-out-alt"></i></div>
+          </div>
+        </div>
+        <div class="exsel__toolbar">
+          <div class="button"><i class="fas fa-align-left"></i></div>
+          <div class="button"><i class="fas fa-align-center"></i></div>
+          <div class="button"><i class="fas fa-align-right"></i></div>
+          <div class="button"><i class="fas fa-bold"></i></div>
+          <div class="button"><i class="fas fa-italic"></i></div>
+          <div class="button"><i class="fas fa-underline"></i></div>
+        </div>
+        <div class="exsel__formula">
+          <div class="info">FX</div>
+          <div class="input" contenteditable spellcheck="false"></div>
+        </div>
+        <div class="exsel__table">
+          <div class="row">
+            <div class="row-info"></div>
+            <div class="row-data">
+              <div class="column">
+                A
+              </div>
+              <div class="column">
+                B
+              </div>
+              <div class="column">
+                C
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-info">
+              1
+            </div>
+            <div class="row-data">
+              <div class="cell selected" contenteditable>
+                A1
+              </div>
+              <div class="cell" contenteditable>
+                B1
+              </div>
+              <div class="cell" contenteditable>
+                C1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/0275543ae7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
