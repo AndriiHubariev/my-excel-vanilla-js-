@@ -1,8 +1,27 @@
-$red: black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import "~normalize.css";
+@import "formula";
+@import "header";
+@import "table";
+@import "toolbar";
+@import "dashbord";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background: $red;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
 }
-* {
-    box-sizing: border-box;
+
+.exsel {
+    position: relative;
+    color: grey;
+    height: 100%;
+    max-width: 100%;
 }
